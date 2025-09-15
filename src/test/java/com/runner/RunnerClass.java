@@ -20,6 +20,7 @@ public class RunnerClass extends BaseClass{
 		
 		PageObjectManager.getPageObjectManager().getProfileSummaryPage().profilepage();
 		
+		System.out.println("");
 		//navigateMethods("refresh");
 		
 		browserTerminate();
